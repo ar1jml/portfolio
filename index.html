@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="Experienced Frontend Developer portfolio showcasing professional projects, technical skills, work experience.">
+      <meta name="robots" content="index, follow">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+      <!--=============== REMIXICONS - Insert link for icons ===============-->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Arafat J. | Software Developer</title>
+   </head>
+   <body>
+      <header class="site-header">
+         <nav class="site-nav" aria-label="Main navigation">
+            <a href="#about">About Me</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+            <button class="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch to dark theme">
+               <i class="ri-moon-line" aria-hidden="true"></i>
+            </button>
+         </nav>
+      </header>
+
+      <!--============ MAIN ============-->
+      <main class="main">
+         <div class="main__content">
+            <!--============ PROFILE ============-->
+            <section class="profile section" id="about">
+               <div class="profile__content">
+                  <div class="profile__image-box">
+                     <img class="profile__image" src="assets/img/perfil.jpg" alt="Arafat J. Profile picture">
+                  </div>
+
+                  <div class="profile__meta">
+                     <span class="profile__greeting">Software Developer</span>
+                     <h1 class="profile__name">Arafat J.</h1>
+
+                     <p class="profile__description">
+                        I build reliable and maintainable applications with a strong focus on
+                        backend development, software architecture, and modern development
+                        practices. I learn through practical projects while growing my skills
+                        across APIs, databases, DevOps, cloud technologies, and distributed systems.
+                     </p>
+
+                     <p class="profile__description">
+                        My goal is to design, build, test, deploy, and maintain high-quality
+                        software with a focus on scalability, reliability, security, and production engineering.
+                     </p>
+                     <a class="profile__resume" href="assets/files/Arafat-Jemal-Resume.txt" download>
+                        <i class="ri-download-2-line" aria-hidden="true"></i>
+                        Download Resume
+                     </a>
+                  </div>
+               </div>
+            </section>
+
+            <div class="main__area">
+               <div class="main__group main-active" data-content id="info">
+                  <div class="main__left">
+                     <!--============ SKILLS ============-->
+                     <section class="skills section" id="services">
+                        <h2 class="section__title">Skills</h2>
+                        <ul class="skills__list">
+                           <li>Python, Django, FastAPI &amp; REST APIs</li>
+                           <li>PostgreSQL, SQL &amp; database design</li>
+                           <li>JavaScript &amp; Vue.js</li>
+                           <li>Git &amp; GitHub</li>
+                           <li>Docker, Docker Compose &amp; Linux</li>
+                           <li>Pytest</li>
+                           <li>API validation, authentication &amp; authorization</li>
+                        </ul>
+                     </section>
+
+                     <!--============ TOOLS ============-->
+                     <section class="tools section">
+                        <h2 class="section__title">Tools &amp; Technologies</h2>
+                        <ul class="tools__list">
+                           <li><img src="https://cdn.simpleicons.org/python/3776AB" alt="Python icon"> Python</li>
+                           <li><img src="https://cdn.simpleicons.org/django" alt="Django icon"> Django</li>
+                           <li><img src="https://cdn.simpleicons.org/fastapi/009688" alt="FastAPI icon"> FastAPI</li>
+                           <li><img src="https://cdn.simpleicons.org/cursor" alt="Cursor AI icon"> Cursor AI</li>
+                           <li><img src="assets/img/tools-2.svg" alt="JavaScript icon"> JavaScript</li>
+                           <li><img src="assets/img/tools-4.svg" alt="Git icon"> Git</li>
+                           <li><img src="assets/img/tools-3.svg" alt="GitHub icon"> GitHub</li>
+                           <li><img src="assets/img/tools-5.svg" alt="PostgreSQL icon"> PostgreSQL</li>
+                           <li><img src="assets/img/tools-docker.svg" alt="Docker icon"> Docker</li>
+                           <li><img src="assets/img/tools-pytest.svg" alt="Pytest icon"> Pytest</li>
+                        </ul>
+                     </section>
+                  </div>
+      
+                  <div class="main__right">
+                     <!--============ EDUCATION ============-->
+                     <section class="education section">
+                        <h2 class="section__title">Education</h2>
+
+                        <div class="education__item">
+                           <span>2025 - Present</span>
+                           <p>B.Sc. in Computer Science - Arsi University</p>
+                        </div>
+                     </section>
+
+                     <!--============ CERTIFICATION ============-->
+                     <section class="certification section">
+                        <h2 class="section__title">Certification</h2>
+                        <div class="certification__item">
+                           <span>Python</span>
+                           <p>Udemy</p>
+                           <a href="https://www.udemy.com/certificate/UC-12fd0553-0018-41cb-a6e4-d787b894b7b4/" target="_blank" rel="noreferrer">View certificate</a>
+                        </div>
+                     </section>
+                  </div>
+               </div>
+
+               <!--============ PROJECTS ============-->
+               <section class="projects section" data-content id="projects">
+                  <h2 class="section__title">Projects</h2>
+                  <div class="projects__grid">
+                     <article class="projects__card">
+                        <img class="projects__img" src="assets/img/price-track-dashboard.png" alt="Smart price monitoring dashboard preview">
+                        <div class="projects__content">
+                           <h3 class="projects__name">Smart Price Monitoring Dashboard</h3>
+                           <p class="projects__description projects__description--collapsible" id="smart-price-description">
+                              As a Full-Stack Developer, I built a modern price monitoring platform that helps businesses
+                              track product prices across multiple stores, detect price changes, review historical trends,
+                              and manage smart alerts from one dashboard. The application combines a responsive Vue.js
+                              interface with FastAPI REST APIs and a PostgreSQL database, including authentication, product
+                              and store management, price history, and real-time pricing insights. The platform helps teams
+                              make faster, data-driven pricing and purchasing decisions.
+                           </p>
+                           <button class="projects__toggle" type="button" aria-controls="smart-price-description" aria-expanded="false">Read more</button>
+                           <a class="projects__link" href="https://price-alerts-flame.vercel.app/login" target="_blank" rel="noreferrer">Live Demo</a>
+                        </div>
+                     </article>
+                  </div>
+               </section>
+            </div>
+
+            <!--============ BLOG ============-->
+            <section class="blog section" id="blog">
+               <h2 class="section__title">Blog</h2>
+               <p class="profile__description">
+                  Documenting my journey as I learn software engineering, artificial intelligence, machine learning, and modern development practices.
+               </p>
+            </section>
+
+            <!--============ CONTACT ============-->
+            <section class="contact section" id="contact">
+               <h2 class="section__title">Contact</h2>
+               <div class="contact__links">
+                  <a class="contact__link" href="mailto:arafatjemal2016@gmail.com">arafatjemal2016@gmail.com</a>
+                  <a class="contact__link" href="tel:+251952194185">+251 952 194 185</a>
+                  <a class="contact__link contact__social" href="https://www.linkedin.com/in/ar1jml/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                  <img src="assets/img/linkedin.svg" alt=""> LinkedIn
+                  </a>
+                  <a class="contact__link contact__social" href="https://github.com/ar1jml" target="_blank" rel="noreferrer" aria-label="GitHub">
+                     <i class="ri-github-fill" aria-hidden="true"></i> GitHub
+                  </a>
+                  <a class="contact__link contact__social" href="https://t.me/ar1jml" target="_blank" rel="noreferrer" aria-label="Telegram">
+                     <img src="assets/img/telegram.svg" alt=""> Telegram
+                  </a>
+               </div>
+            </section>
+
+            <!--============ FOOTER ============-->
+            <footer class="footer">
+               <p class="footer__copyright">&copy; 2026 Arafat J. All rights reserved.</p>
+            </footer>
+         </div>
+      </main>
+
+      <!--=============== SCROLLREVEAL - Insert link for animations ===============-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>

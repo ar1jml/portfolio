@@ -1,0 +1,29 @@
+ARAFAT JEMAL
+Software Developer
+
+CONTACT
+Email: arafatjemal2016@gmail.com
+Phone: +251 952 194 185
+
+PROFILE
+Software Developer focused on building reliable and maintainable applications. Experienced in backend development, software architecture, APIs, databases, DevOps, cloud technologies, and distributed systems.
+
+SKILLS
+- Python, Django, FastAPI, and REST APIs
+- PostgreSQL, SQL, and database design
+- JavaScript and Vue.js
+- Git and GitHub
+- Docker, Docker Compose, and Linux
+- Pytest
+- API validation, authentication, and authorization
+
+TOOLS AND TECHNOLOGIES
+Python, Django, FastAPI, JavaScript, Git, GitHub, PostgreSQL, Docker, and Pytest
+
+EDUCATION
+B.Sc. in Computer Science
+Arsi University | 2025 - Present
+
+CERTIFICATION
+Python | Udemy
+https://www.udemy.com/certificate/UC-12fd0553-0018-41cb-a6e4-d787b894b7b4/
