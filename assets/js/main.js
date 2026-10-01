@@ -1,7 +1,30 @@
 /*=============== THEME TOGGLE ===============*/
 const themeToggle = document.querySelector('.theme-toggle')
+const navToggle = document.querySelector('.nav-toggle')
+const siteNav = document.querySelector('.site-nav')
 const savedTheme = localStorage.getItem('portfolio-theme')
 const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+
+const closeNavigation = () => {
+   siteNav?.classList.remove('is-open')
+   navToggle?.setAttribute('aria-expanded', 'false')
+   navToggle?.setAttribute('aria-label', 'Open navigation menu')
+   navToggle?.querySelector('i')?.classList.replace('ri-close-line', 'ri-menu-line')
+}
+
+navToggle?.addEventListener('click', () => {
+   const isOpen = navToggle.getAttribute('aria-expanded') === 'true'
+
+   siteNav?.classList.toggle('is-open', !isOpen)
+   navToggle.setAttribute('aria-expanded', String(!isOpen))
+   navToggle.setAttribute('aria-label', isOpen ? 'Open navigation menu' : 'Close navigation menu')
+   navToggle.querySelector('i')?.classList.toggle('ri-menu-line', isOpen)
+   navToggle.querySelector('i')?.classList.toggle('ri-close-line', !isOpen)
+})
+
+siteNav?.querySelectorAll('.site-nav__links a').forEach((link) => {
+   link.addEventListener('click', closeNavigation)
+})
 
 const setTheme = (isDark) => {
    document.body.classList.toggle('dark-theme', isDark)
