@@ -119,7 +119,7 @@ sr.reveal('.profile__content, .skills, .tools, .experience, .education, .project
    reset: false,
 })
 
-document.querySelectorAll('.projects__toggle').forEach((toggle) => {
+document.querySelectorAll('.projects__toggle, .blog__toggle').forEach((toggle) => {
    toggle.addEventListener('click', () => {
       const description = document.getElementById(toggle.getAttribute('aria-controls'))
       const expanded = toggle.getAttribute('aria-expanded') === 'true'
